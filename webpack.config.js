@@ -257,6 +257,11 @@ module.exports = (env, argv) => {
                 "buffer": require.resolve("buffer/"),
                 // Polyfill needed by sentry
                 "process/browser": require.resolve("process/browser"),
+                "http": require.resolve("stream-http"),
+                "zlib": require.resolve("browserify-zlib"),
+                "https": require.resolve("https-browserify"),
+                "url": require.resolve("url/"),
+                "stream": require.resolve("stream-browserify"),
             },
         },
 
