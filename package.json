@@ -216,8 +216,5 @@
         "outputDirectory": "coverage",
         "outputName": "jest-sonar-report.xml",
         "relativePaths": true
-    },
-    "optionalDependencies": {
-        "@planq-network/element-web-web3-module": "file:/home/user/element-web-ilag-module"
     }
 }
